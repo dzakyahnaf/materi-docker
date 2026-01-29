@@ -31,6 +31,8 @@ Hal ini membuat container:
 
 ### 1.3. Deploy Aplikasi Tanpa Docker
 
+![alt text](../images/image1.png)
+
 Pada deployment tradisional (tanpa Docker), alur deploy aplikasi biasanya seperti berikut:
 
 #### Arsitektur
@@ -59,6 +61,8 @@ Jika ingin memindahkan aplikasi ke server lain, maka:
 ---
 
 ### 1.4. Deploy Aplikasi Menggunakan Docker
+
+![alt text](../images/image2.png)
 
 Pada deployment menggunakan Docker, aplikasi dikemas menjadi **container**.
 
@@ -184,6 +188,8 @@ Lapisan Container terdiri dari:
 
 ### 2.4. Perbandingan Langsung VM vs Container
 
+![alt text](../images/image3.png)
+
 | Aspek | Virtual Machine | Container |
 |-----|---------------|-----------|
 | OS | Setiap VM punya OS sendiri | Share OS host |
@@ -258,6 +264,8 @@ Docker Engine menggunakan arsitektur **client–server**.
 
 ### 3.2. Komponen Utama Docker Architecture
 
+![alt text](../images/image4.png)
+
 Berdasarkan gambar, Docker Architecture terdiri dari tiga komponen utama:
 1. Docker Client
 2. Docker Host (Docker Server / Docker Daemon)
@@ -311,6 +319,8 @@ Docker Daemon adalah service utama yang:
 
 ### 3.6. Docker Images
 
+![alt text](../images/image5.png)
+
 #### Penjelasan
 Docker Image adalah:
 - Template read-only
@@ -331,6 +341,8 @@ Image bisa berasal dari:
 
 ### 3.7. Docker Containers
 
+![alt text](../images/image7.png)
+
 #### Penjelasan
 Docker Container adalah:
 - Instance dari Docker Image
@@ -346,6 +358,8 @@ Ciri container:
 ---
 
 ### 3.8. Docker Registry
+
+![alt text](../images/image6.png)
 
 #### Apa itu Docker Registry?
 Docker Registry adalah tempat penyimpanan Docker Image.
